@@ -1,2 +1,2 @@
-# zeddy-tech-portfolio
-You're welcome to my web portfolio 
+# my-portfolio
+you are welcome to my tech portfolio
