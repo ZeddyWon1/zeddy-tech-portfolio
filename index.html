@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
 
     <title>Zeddy's portfolio</title>
 </head>
@@ -59,7 +60,7 @@
     <div class="cont2">
         <div class="aboutme" id="aboutme">
             <h2 id="habm" class="habm">About Me</h2>
-            <div class="amedivp">
+            <div class="amedivp" data-aos="fade-up">
                 <p class="pabt">
                     I’m a Full Stack Web Developer with a strong passion for building functional, user-friendly, 
                     and scalable web applications. With experience across both frontend and backend development, 
@@ -121,11 +122,11 @@
             </div>
         </div>
     </div>
-    <div class="techexp">
+    <div class="techexp" data-aos="fade-up">
         <h2 class="teh2">Technical Expertise</h2>
     </div>
     <div class="techexp">
-        <div class="frntend" id="frntend">
+        <div class="frntend" id="frntend" data-aos="fade-up">
             <p class="pf1">
                 <i>🎨</i>Frontend Development
             </p>
@@ -158,7 +159,7 @@
                 <span>90%</span>
             </div>
         </div>
-        <div class="frntend" id="frntend2">
+        <div class="frntend" id="frntend2" data-aos="fade-up">
             <p class="pf1 pf2">
                 <i>⚡</i>Backend & APIs
             </p>
@@ -191,7 +192,7 @@
                 <span>40%</span>
             </div>
         </div>
-        <div class="frntend" id="frntend3">
+        <div class="frntend" id="frntend3" data-aos="fade-up">
             <p class="pf1">
                 <i>🚀</i>Performance & DevOps
             </p>
@@ -225,10 +226,10 @@
             </div>
         </div>
     </div>
-    <div class="techexp2">
+    <div class="techexp2" data-aos="fade-up">
         <h2 class="teh2">Previous Projects</h2>
     </div>
-     <div class="techexp">
+     <div class="techexp" data-aos="fade-up">
         <div class="frntend2" id="frntend">
             <p class="pf1">
                 Social Madia Website
@@ -241,7 +242,7 @@
                 its also a responsive Website, it has a very scalable user interface.
             </p>
         </div>
-        <div class="frntend2" id="frntend">
+        <div class="frntend2" id="frntend" data-aos="fade-up">
             <p class="pf1 pf2">
                 Shopping Mall Website
             </p>
@@ -254,7 +255,7 @@
                 chart order.
             </p>
         </div>
-        <div class="frntend2" id="frntend">
+        <div class="frntend2" id="frntend" data-aos="fade-up">
             <p class="pf1">
                 Interiou Website
             </p>
@@ -268,10 +269,10 @@
             </p>
         </div>
     </div>
-    <div class="techexp">
+    <div class="techexp" data-aos="fade-up">
         <h2 class="teh2">Featured Projects</h2>
     </div>
-    <div class="fpro">
+    <div class="fpro" data-aos="fade-up">
         <div class="fdiv">
             <div class="fd1">
                 <p class="pe">E-commerce PWA</p>
@@ -312,7 +313,7 @@
             <img src="code_room.jpg" alt="" class="fdivii">
         </div>
     </div>
-    <div class="techexp3" id="formCnt">
+    <div class="techexp3" id="formCnt" data-aos="fade-up">
         <h2 class="teh2">Get In Touch.</h2>
         <form action="" class="formCnt">
             <label for="text" name="fullname">Full Name:</label>
@@ -335,15 +336,17 @@
             <textarea name="textarea" id="" class="txta"></textarea>
             <br>
             <br>
-            <button class="fbtn">
+            <div class="fmbtn">
+                <button class="fbtn2">
                 <i class="fa fa-envelope"></i>
                     Submit  
-            </button>
-            <input type="reset" value="Clear" class="fbtn">
+                </button>
+                <input type="reset" value="Clear" class="fbtn3">
+            </div>
         </form>
     </div>
     <footer>
-        <div class="ffdv">
+        <div class="ffdv" data-aos="fade-up">
             <h2 class="teh3">Let's Build Something Amazing</h2>
             <p class="ph1">Looking for a developer who can create high-performance, interactive web experiences?</p>
             <div class="techexp">
@@ -374,5 +377,9 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
