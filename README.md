@@ -1,2 +1,2 @@
 # my-portfolio
-you are welcome to my web dev project
+you are welcome to my tech portfolio
