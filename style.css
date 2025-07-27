@@ -935,10 +935,6 @@ span {
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0px;
     }
-    .fbtn2 {
-        width: 30px;
-        font-size: 5px;
-    }
     .formCnt {
         width: 90%;
     }
@@ -1288,7 +1284,7 @@ footer {
     border: none;
     color: white;
     width: 48%;
-    margin-right: 13px;
+    margin-right: 7.20px;
     border-radius: 5px;
     background-color: green;
 }
