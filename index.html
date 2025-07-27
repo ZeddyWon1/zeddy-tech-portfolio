@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Zeddy's portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <h4>Zeddy's portfolio</h4>
+            <div class="lstdiv">
+                <a href="#">Home</a>
+                <a href="#aboutme" onclick="aboutMe()">About</a>
+                <a href="#contact" onclick="aboutMe()">Contact</a>
+            </div>
+        </nav>
+        <nav class="nav2">
+            <h4>Zeddy's portfolio</h4>
+            <div class="dropdown">
+                <i class="fa fa-bars" onclick="dropicon()"></i>
+                <div class="dropdown-content" id="barN">
+                    <span id="remove">
+                        <i class="fa fa-times" onclick="remove()"></i>
+                    </span>
+                    <div class="alist">
+                        <a href="#">Home</a>
+                        <a href="#aboutme" onclick="aboutMe()">About</a>
+                        <a href="#contact" onclick="aboutMe()">Contact</a>
+                        <a href="">Resumes</a>
+                        <a href="#aboutme" onclick="aboutMe()">See portfolio</a>
+                    </div>
+                </div>    
+            </div>
+        </nav>
+    </header>
+    <div class="cont">
+        <div class="dtcont" id="dtc">
+            <h2 id="hello">Hello<i class="wave">👋,</i></h2>
+            <h2 id="hello1">I'm Zeddy Tech.</h2>
+            <p id="dtp"></p>
+            <p id="dtp2"></p>
+        </div>
+        <div class="sportdiv">
+            <a href="#aboutme"><button class="sportbtn" onclick="aboutMe()">SEE PORTFOLIO</button></a>
+            <button class="sportbtn2">RESUMES</button>
+        </div>
+        <div class="imd">
+            <img src="UMSW6274.JPG" alt="" class="imgd">
+        </div>
+        <div class="sexp">
+            <p>Scroll to explore</p>
+            <i class="fa fa-arrow-down"></i>
+        </div>
+    </div>
+    <div class="cont2">
+        <div class="aboutme" id="aboutme">
+            <h2 id="habm" class="habm">About Me</h2>
+            <div class="amedivp">
+                <p class="pabt">
+                    I’m a Full Stack Web Developer with a strong passion for building functional, user-friendly, 
+                    and scalable web applications. With experience across both frontend and backend development, 
+                    I specialize in using modern technologies like JavaScript, React, Node.js, Express, 
+                    and MongoDB to turn ideas into fully functional digital products.
+                </p>
+                <p class="pabt">
+                    Whether it's designing intuitive user interfaces or developing powerful APIs, 
+                    I enjoy solving real-world problems through code. 
+                    I'm always eager to learn new tools, collaborate with others, 
+                    and take on new challenges that push my technical and creative boundaries.
+                </p>
+                <p class="pabt">
+                    What I Do🔧
+                    <br>
+                    <br>
+                    • Build responsive, cross-platform web apps <br>
+                    • Design and consume RESTful APIs <br>
+                    • Implement user authentication and secure data handling <br>
+                    • Optimize performance and scalability on both frontend and backend <br>
+                    • Collaborate using Git, Agile, and modern dev workflows
+                </p>
+            </div>
+            <div class="frntend_i" id="contact">
+                <div class="mcnt">
+                    <h3>Contact</h3>
+                    <p class="pacnt">
+                        <i class="fa fa-whatsapp"></i>
+                        <span class="wapn">+234 810 326 7614</span>
+                    </p>
+                    <p class="pacnt">
+                        <i class="fa fa-envelope"></i>
+                        <span>zeddywon@gmail.com</span>
+                    </p>
+                    <p class="pacnt">
+                        <i class="fa fa-home"></i>
+                        <span>Enugu Nigeria</span>
+                    </p>
+
+                    <div class="cnt2">
+                        <h3>Social Media</h3>
+                        <p class="pacnt">
+                            <i class="fa fa-facebook"></i>
+                            <span>@Somkizz Zeddy</span>
+                        </p>
+                        <p class="pacnt">
+                            <i class="fa fa-instagram"></i>
+                            <span>@Somkizz_Zeddy</span> 
+                        </p>
+                        <p class="pacnt">
+                            <i class="fa fa-twitter"></i>
+                            <span>@IamSomkizz</span> 
+                        </p>
+                        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="zeddy-tech-368a18357" data-version="v1">
+                            <i class="fa fa-linkedin"></i><a class="badge-base__link LI-simple-link" href="https://ng.linkedin.com/in/zeddy-tech?trk=profile-badge">Linkedin Clink Here </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="techexp">
+        <h2 class="teh2">Technical Expertise</h2>
+    </div>
+    <div class="techexp">
+        <div class="frntend" id="frntend">
+            <p class="pf1">
+                <i>🎨</i>Frontend Development
+            </p>
+            <div class="rtdiv">
+                <p id="react"></p>
+                <div class="rd1">
+                    <div class="rd2"></div>
+                </div>
+                <span class="rsd">20%</span>
+            </div>
+            <div class="rtdiv">
+                <p id="js"></p>
+                <div class="rd1">
+                    <div class="rd3"></div>
+                </div>
+                <span>80%</span>
+            </div>
+            <div class="rtdiv">
+                <p id="mcss"></p>
+                <div class="rd1">
+                    <div class="rd4"></div>
+                </div>
+                <span>100%</span>
+            </div>
+           <div class="rtdiv">
+                <p id="weba"></p>
+                <div class="rd1">
+                    <div class="rd5"></div>
+                </div>
+                <span>90%</span>
+            </div>
+        </div>
+        <div class="frntend" id="frntend2">
+            <p class="pf1 pf2">
+                <i>⚡</i>Backend & APIs
+            </p>
+            <div class="rtdiv">
+                <p id="node"></p>
+                <div class="bad1">
+                    <div class="bd2"></div>
+                </div>
+                <span>20%</span>
+            </div>
+            <div class="rtdiv">
+                <p id="restful"></p>
+                <div class="bad1">
+                    <div class="bd3"></div>
+                </div>
+                <span>15%</span>
+            </div>
+            <div class="rtdiv">
+                <p id="GraphQL"></p>
+                <div class="bad1">
+                    <div class="bd4"></div>
+                </div>
+                <span>18%</span>
+            </div>
+           <div class="rtdiv">
+                <p id="Database"></p>
+                <div class="bad1">
+                    <div class="bd5"></div>
+                </div>
+                <span>40%</span>
+            </div>
+        </div>
+        <div class="frntend" id="frntend3">
+            <p class="pf1">
+                <i>🚀</i>Performance & DevOps
+            </p>
+            <div class="rtdiv">
+                <p id="webp"></p>
+                <div class="pd1">
+                    <div class="pd2"></div>
+                </div>
+                <span>100%</span>
+            </div>
+            <div class="rtdiv">
+                <p id="ci"></p>
+                <div class="pd1">
+                    <div class="pd3"></div>
+                </div>
+                <span>20%</span>
+            </div>
+            <div class="rtdiv">
+                <p id="docker"></p>
+                <div class="pd1">
+                    <div class="pd4"></div>
+                </div>
+                <span>20%</span>
+            </div>
+            <div class="rtdiv">
+                <p id="aws"></p>
+                <div class="pd1">
+                    <div class="pd5"></div>
+                </div>
+                <span>20%</span>
+            </div>
+        </div>
+    </div>
+    <div class="techexp2">
+        <h2 class="teh2">Previous Projects</h2>
+    </div>
+     <div class="techexp">
+        <div class="frntend2" id="frntend">
+            <p class="pf1">
+                Social Madia Website
+            </p>
+            <div class="pimdv">
+
+            </div>
+            <p class="pab">
+                This is a Social media Website created with the knowladge of HTML, CSS and JavaScript.
+                its also a responsive Website, it has a very scalable user interface.
+            </p>
+        </div>
+        <div class="frntend2" id="frntend">
+            <p class="pf1 pf2">
+                Shopping Mall Website
+            </p>
+            <div class="pimdv">
+
+            </div>
+            <p class="pab">
+                This is a Shopping Mall Website created with the knowladge of HTML, CSS and JavaScript.
+                its also a responsive Website, it has a very scalable user interface suitable for any business use it has an active
+                chart order.
+            </p>
+        </div>
+        <div class="frntend2" id="frntend">
+            <p class="pf1">
+                Interiou Website
+            </p>
+            <div class="pimdv">
+
+            </div>
+            <p class="pab">
+                This is a Interiou Website created with the knowladge of HTML, CSS and JavaScript.
+                its also a responsive Website, it has a very scalable user interface and suitable for all kind of 
+                home Interiou sales.
+            </p>
+        </div>
+    </div>
+    <div class="techexp">
+        <h2 class="teh2">Featured Projects</h2>
+    </div>
+    <div class="fpro">
+        <div class="fdiv">
+            <div class="fd1">
+                <p class="pe">E-commerce PWA</p>
+                <p class="ph">High-performance Progressive Web App with offline capabilities</p>
+                <p class="pp">Performance Metrics</p>
+            </div>
+            <div class="spd">
+                <div class="sp1">
+                    <div class="spp1">
+                        <span class="spn">98</span>
+                        <span class="spt">Performance</span>
+                    </div>
+                </div>
+                <div class="sp2">
+                    <div class="spp1">
+                        <span class="spn">100</span>
+                        <span class="spt">Accessibility</span>
+                    </div>
+                </div>
+                <div class="sp3">
+                    <div class="spp1">
+                        <span class="spn">100</span>
+                        <span class="spt">Seo</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fd2">
+                <p class="pp">Technical Implementation</p>
+                <div class="tdv">
+                    <p class="ph1">▹Service Worker implementation</p>
+                    <p class="ph1">▹IndexedDB for offline data</p>
+                    <p class="ph1">▹Streaming SSR</p>
+                    <p class="ph1">▹Dynamic code splitting</p>
+                </div>
+            </div>   
+        </div>
+        <div class="fdiv2">
+            <img src="code_room.jpg" alt="" class="fdivii">
+        </div>
+    </div>
+    <div class="techexp3" id="formCnt">
+        <h2 class="teh2">Get In Touch.</h2>
+        <form action="" class="formCnt">
+            <label for="text" name="fullname">Full Name:</label>
+            <br>
+            <input type="text" class="eminpt">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" id="" class="eminpt">
+            <br>
+            <br>
+            <label for="number">Phone Number:</label>
+            <br>
+            <input type="number" name="" id="" class="eminpt">
+            <br>
+            <br>
+            <label for="textarea">Drop a massage:</label>
+            <br>
+            <textarea name="textarea" id="" class="txta"></textarea>
+            <br>
+            <br>
+            <button class="fbtn">
+                <i class="fa fa-envelope"></i>
+                    Submit  
+            </button>
+            <input type="reset" value="Clear" class="fbtn">
+        </form>
+    </div>
+    <footer>
+        <div class="ffdv">
+            <h2 class="teh3">Let's Build Something Amazing</h2>
+            <p class="ph1">Looking for a developer who can create high-performance, interactive web experiences?</p>
+            <div class="techexp">
+                <div class="dlot">
+                    <i class="fa fa-map-marker"></i>
+                    <p>Enugu, Nigeria</p>
+                </div>
+            </div>
+            
+            <div class="btndv">
+                <a href="#formCnt">
+                    <button class="fbtn" onclick="showForm()">
+                        <i class="fa fa-envelope"></i>
+                         Get in Touch  
+                    </button>
+                </a>
+                <a href="">
+                    <button class="fbtn">
+                        <i class="fa fa-file"></i>
+                        View Resumes
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="ftd">
+            <p>Code by Zeddy Tech</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
