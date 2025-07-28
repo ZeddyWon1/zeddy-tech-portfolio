@@ -568,7 +568,7 @@ span {
     transform: scale(1.04);
 }
 #frntend {
-    padding: 20px;
+    padding-top: 15px;
 }
 .pimdv {
     height: 130px;
@@ -936,7 +936,7 @@ span {
         border-top-right-radius: 0px;
     }
     .formCnt {
-        width: 90%;
+        width: 80%;
     }
     
 }
@@ -1284,7 +1284,7 @@ footer {
     border: none;
     color: white;
     width: 48%;
-    margin-right: 7.20px;
+    margin-right: 6px;
     border-radius: 5px;
     background-color: green;
 }
@@ -1293,8 +1293,8 @@ footer {
     font-size: 10px;
     border: none;
     color: black;
-    width: 48%;
-    border-radius: 5px;
+    width: 47%;
+    border-radius: 2px;
     background-color: rgb(242, 242, 105);
 }
 .btndv a {
