@@ -436,6 +436,7 @@ span {
     justify-content: center;
     margin: 20px;
     margin-top: 50px;
+    display: none;
     border-radius: 10px;
 }
 
@@ -1276,7 +1277,7 @@ span {
        width: 80%;
     }
     .fpro {
-        margin-left: 45px;
+        margin-left: 43px;
     }
     .formCnt {
         width: 300px;
