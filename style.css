@@ -1274,6 +1274,9 @@ span {
     .fpro, .fpro2 {
        width: 80%;
     }
+    .fpro {
+        margin-left: 20px;
+    }
     .formCnt {
         width: 300px;
         justify-self: center;
