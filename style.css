@@ -601,14 +601,14 @@ span {
     width: 100%; 
 }
 .fpro {
-    width: 80%;
+    width: 85%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-self: center;
     margin: 20px;
     margin-top: 50px;
-    margin-left: 0px;
+    margin-left: 17px;
     border-radius: 10px;
     background-color: rgb(33 38 45);
 }
@@ -1271,10 +1271,10 @@ span {
         height: 190px;
     }
     .fpro, .fpro2 {
-        margin-left: 8%;
+       width: 80%;
     }
     .formCnt {
-        width: 310px;
+        width: 300px;
         justify-self: center;
         margin: 20px;
         border-radius: 9px;
