@@ -723,7 +723,8 @@ span {
     padding: 20px;
     width: 50%;
     justify-self: center;
-    margin-left: 50px;
+    border-radius: 10px;
+    margin-left: 0px;
     background-color: rgb(33 38 45);
 }
 .getinth2 {
