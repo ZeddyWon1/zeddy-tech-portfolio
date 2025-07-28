@@ -936,7 +936,7 @@ span {
         border-top-right-radius: 0px;
     }
     .formCnt {
-        width: 80%;
+        width: 300px;
     }
     
 }
@@ -1237,7 +1237,9 @@ span {
     .fdivii {
         height: 190px;
     }
-    
+    .formCnt {
+        width: 320px;
+    }
 }
 
 footer {
@@ -1283,7 +1285,7 @@ footer {
     font-size: 10px;
     border: none;
     color: white;
-    width: 48%;
+    width: 47%;
     margin-right: 6px;
     border-radius: 5px;
     background-color: green;
@@ -1294,9 +1296,16 @@ footer {
     border: none;
     color: black;
     width: 47%;
-    border-radius: 2px;
+    border-radius: 5px;
     background-color: rgb(242, 242, 105);
 }
 .btndv a {
     text-decoration: none;
+}
+.fbtn2:hover, .fbtn:hover {
+    background-color: rgba(58, 58, 58, 0.575);
+}
+.fbtn3:hover {
+    color: white;
+    background-color: rgba(58, 58, 58, 0.575);
 }
