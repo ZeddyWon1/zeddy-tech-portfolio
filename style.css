@@ -235,8 +235,14 @@ h4 {
     padding: 15px;
     color: white;
     font-size: 10px;
+    border: none;
     border-radius: 10px;
     box-shadow: 3px 4px 1px white;
+}
+.sportbtn:hover, .sportbtn2:hover {
+    font-weight: 600;
+    color: black;
+    background-color: yellow;
 }
 .sportdiv a {
     text-decoration: none;
@@ -246,9 +252,11 @@ h4 {
     background-color: black;
     width: 100px;
     height: 40px;
-    padding: 15PX;
+    padding: 10PX;
     color: white;
+    border: none;
     font-size: 10px;
+    margin: 5px;
     border-radius: 10px;
     box-shadow: 3px 4px 1px white;
 }
@@ -413,14 +421,26 @@ span {
     justify-content: center;
     justify-items: center;
 }
-.techexp3 {
+.getint {
+    width: 100%;
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     flex-wrap: wrap;
-    display: none;
     justify-content: center;
     justify-items: center;
 }
+.fpro2 {
+    width: 87%;
+    height: auto;
+    display: block;
+    justify-self: center;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
 .rtdiv {
     margin-left: 18px;
     position: relative;
@@ -687,7 +707,7 @@ span {
 
 .eminpt {
     width: 100%;
-    height: 40px;
+    height: 30px;
     border: none;
 }
 .txta {
@@ -696,10 +716,15 @@ span {
     border: none;
 }
 .formCnt {
-    margin: 15px;
+    margin: 20px;
     padding: 20px;
     width: 50%;
+    justify-self: center;
+    margin-left: 50px;
     background-color: rgb(33 38 45);
+}
+.getinth2 {
+    font-size: 18px;
 }
 
 @media  (max-width: 450px) {
@@ -935,10 +960,6 @@ span {
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0px;
     }
-    .formCnt {
-        width: 300px;
-    }
-    
 }
 @media (max-width: 550px) {
     .lstdiv {
@@ -1143,12 +1164,12 @@ span {
     }
     .frntend {
         width: 85%;
-        height: 40%;
+        height: 50%;
         margin-bottom: 5%;
     }
     .frntend2 {
         width: 85%;
-        height: 40%;
+        height: 50%;
         margin-bottom: 5%;
     }
     .rtdiv span {
@@ -1220,6 +1241,16 @@ span {
     .LI-profile-badge {
         margin-top: 5px;
     }
+    .frntend {
+        width: 85%;
+        height: 230px;
+        margin-bottom: 5%;
+    }
+    .frntend2 {
+        width: 85%;
+        height: 240px;
+        margin-bottom: 5%;
+    }
     .fdiv {
         padding: 0;
         width: 100%;
@@ -1238,7 +1269,9 @@ span {
         height: 190px;
     }
     .formCnt {
-        width: 320px;
+        width: 310px;
+        justify-self: center;
+        margin: 20px;
     }
 }
 
@@ -1286,7 +1319,7 @@ footer {
     border: none;
     color: white;
     width: 47%;
-    margin-right: 6px;
+    margin-right: 8px;
     border-radius: 5px;
     background-color: green;
 }
