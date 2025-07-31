@@ -13,7 +13,6 @@ nav {
     margin: 0;
 
 }
-
 textarea {
     font-size: 16px;
     width: 100%;
@@ -341,6 +340,7 @@ input, textarea {
     width: 105%;
     border: 1px solid rgba(124, 124, 124, 0.485);
     height: 40px;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
@@ -563,6 +563,7 @@ footer #cbz {
     }
     input, textarea {
         width: 132%;
+        font-size: 16px;
     }
     textarea {
         height: 200px;
