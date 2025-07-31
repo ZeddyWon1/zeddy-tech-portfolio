@@ -127,11 +127,27 @@ let barF = document.getElementById("listd");
 
 
 function remove() {
-    document.getElementById("barN").classList.add("slide-out");
+    const remove = document.getElementById("barN")
+    remove.classList.add("slide-out");
+    remove.style.pointerEvents = "none"
+    remove.style.opacity = "0"
 }
 
 function dropicon() {
    const box = document.getElementById("barN")
-   box.style.display = "block";
+   box.style.display = "block"
    box.classList.toggle("slide-out");
+   box.style.pointerEvents = "auto"
+   box.style.opacity = "1"
+}
+
+function shopmall(y) {
+    y = document.getElementById("ptxt")
+    y.innerHTML = "Sorry currently unavailable check back later"
+    y.style.background = "red"
+    y.style.marginLeft = "10px"
+    y.style.fontSize = "13px"
+    y.style.width = "216px"
+    y.style.borderRadius = "5px"
+    y.style.textAlign = "center"
 }

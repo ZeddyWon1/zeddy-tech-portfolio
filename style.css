@@ -583,6 +583,9 @@ span {
     transition: 0.1s ease;
     background-color: rgb(33 38 45);
 }
+.frntend2 a {
+    padding-left: 10px;
+}
 .frntend:hover {
     transform: scale(1.04);
 }
