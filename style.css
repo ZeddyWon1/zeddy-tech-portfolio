@@ -32,7 +32,7 @@ h4 {
 .cont {
     height: 600px;
     position: relative;
-    background: url(/image/zeddy.jpg);
+    background: url(zeddy.jpg);
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     background-size: cover;
