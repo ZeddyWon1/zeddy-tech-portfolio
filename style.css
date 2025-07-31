@@ -32,7 +32,7 @@ h4 {
 .cont {
     height: 600px;
     position: relative;
-    background: url(zeddy.jpg);
+    background: url(/image/zeddy.jpg);
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     background-size: cover;
@@ -964,6 +964,9 @@ span {
         height: 50%;
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0px;
+    }
+    .eminpt {
+        width: 100%;
     }
 }
 @media (max-width: 550px) {
